@@ -1,0 +1,24 @@
+{% extends 'layouts/partials/body.html' %}
+
+{% block body %}
+<h2>Liste des classes</h2>
+<div class="table-responsive">
+    <table class="table">
+      <thead>
+          <th>Intitulé Classe</th>
+          <th>Action</th>
+      </thead>
+      <tbody>
+        {% for classe in classes %}
+        <tr>
+            <td>{{ classe.nom_classe }}</td>
+            <td>
+              <a href="" class="btn btn-primary"><i>Editer</i></a>
+              <a href=""class="btn btn-danger"><i>Supprimer</i></a>
+            </td>
+        </tr>
+    {%  endfor %}
+      </tbody>
+    </table>
+  </div>
+{% endblock %}
