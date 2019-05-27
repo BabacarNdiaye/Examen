@@ -1,2 +1,5 @@
 # Examen
-Création d'un site d’école
+Prenom: Babacar
+Nom : Ndiaye
+GEmail : babsgeo18@gmail.com
+Specialité : Developpement Web
